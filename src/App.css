@@ -1,0 +1,111 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.mainbody{
+    min-width: 200px;
+    min-height: 200px;  
+    padding: 20px;
+}
+
+.AddCatItem{
+    margin: 10px;
+}
+
+input[type="text"]
+{
+    padding: 10px;
+}
+
+.catItem ,.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.AddCatItem{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.itemBelongings{
+
+    display: inline-flex;
+    align-items: center;
+    gap:100px;
+
+}
+
+.itemsHead{
+    display: block;
+}
+.belongins{
+    margin: 10px;
+}
+
+.itemBelongingshead{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 80px 0px 0px;
+}
+
+.AddDelItemIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:10px;
+    gap:20px;
+}
+
+.FormBody{
+    display: flex;
+}
+
+.Container{
+    min-width: 200px;
+    min-height: 200px;  
+    padding: 20px;
+    display: flex;
+}
+
+.question{
+    width: 600px;
+}
+
+.passage{
+    width: 600px;
+    padding: 10px;
+    text-align: justify;
+    word-wrap: break-word;
+    color:black;
+
+    
+}
+
+.border{
+    border:2px solid rgb(183, 173, 173);
+
+}
+
+.p20{
+    padding: 20px;
+
+}
+
+.borderRadius10{
+    border-radius: 10%;
+}
+
+.borderRadius5{
+    border-radius: 5px;
+}
+
